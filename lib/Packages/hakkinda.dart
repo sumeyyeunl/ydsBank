@@ -8,7 +8,7 @@ class Hakkinda extends StatefulWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      backgroundColor: Colors.deepPurpleAccent[200],
+      backgroundColor: Color(0xFFB388FF),
       body: SafeArea(
             child: Column(
               //mainAxisAlignment: MainAxisAlignment.center,
@@ -28,7 +28,7 @@ class Hakkinda extends StatefulWidget {
                 decoration: BoxDecoration(
                 shape: BoxShape.rectangle,
                 borderRadius: BorderRadiusDirectional.circular(18.0),
-                color: Colors.deepPurpleAccent,),
+                color: Color(0xFFB388FF),),
                 child: Text(
                   'YDS Bank',
                   style: TextStyle(
@@ -56,7 +56,7 @@ class Hakkinda extends StatefulWidget {
                 color: Colors.pink[100],
                 ),
                 child: Text(
-                'Bu uygulama Dr. Ögretim Üyesi Ahmet Cevahir ÇINAR tarafından yürütülen 3004881 kodlu MOBIL PROGRAMLAMA dersi kapsamında 173004051 numaralı ögrenci Sümeyye ÜNAL tarafından 30 Nisan 2021 günü yapılmıstır.',
+                'Bu uygulama Dr. Ögretim Üyesi Ahmet Cevahir ÇINAR tarafından yürütülen 3004881 kodlu MOBIL PROGRAMLAMA dersi kapsamında 173004051 numaralı ögrenci Sümeyye ÜNAL tarafından 25 Haziran 2021 günü yapılmıstır.',
                   textAlign: TextAlign.center, style: TextStyle(fontSize: 20,
                 color: Colors.pink[500],
                 fontFamily: 'AnticSlab', fontWeight: FontWeight.w600,),

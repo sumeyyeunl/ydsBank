@@ -18,7 +18,7 @@ class _GirisState extends State<Giris> {
   Widget build(BuildContext context) {
 
     return Scaffold(
-        backgroundColor: Colors.deepPurpleAccent,
+        backgroundColor: Color(0xFFB388FF),
           body: SafeArea(
               child: Column(
                 children: <Widget> [
@@ -37,7 +37,7 @@ class _GirisState extends State<Giris> {
                   decoration: BoxDecoration(
                   shape: BoxShape.rectangle,
                   borderRadius: BorderRadiusDirectional.circular(18.0),
-                  color: Colors.deepPurpleAccent,),
+                  color: Color(0xFFB388FF),),
                   child: Text(
                     'YDS Bank',
                     style: TextStyle(

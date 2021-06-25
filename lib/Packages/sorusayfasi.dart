@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:yds_bankasi/sorular.dart';
+import 'file:///C:/Users/ACER/AndroidStudioProjects/yds_bankasi/lib/Packages/sorular.dart';
 
 class Sorusayfasi extends StatefulWidget {
   @override
@@ -39,7 +39,7 @@ class _SorusayfasiState extends State<Sorusayfasi> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      backgroundColor: Colors.deepPurpleAccent,
+      backgroundColor: Color(0xFFB388FF),
       body: SafeArea(
         child: Column(
         children: <Widget> [

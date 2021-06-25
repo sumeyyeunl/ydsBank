@@ -5,7 +5,7 @@ class Soru {
   final String soru;
   final List<String> secenekler;
 
-  Soru({this.soruId, this.soru, this.cevap, this.secenekler});
+  Soru({required this.soruId, required this.soru, required this.cevap, required this.secenekler});
 
 }
 
